@@ -42,10 +42,11 @@ nav ul {
   list-style-type: none;
 }
 nav ul li {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 nav ul li a{
+  padding-bottom: 10px;
   font-size: 0.6875em;
   font-family: "Courier New", Courier, Monaco;
   color: white;
@@ -67,7 +68,6 @@ nav ul li a{
 }
 .on-active {
   opacity: 1;
-  padding: 0 10px;
 }
 
 footer {
