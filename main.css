@@ -52,6 +52,24 @@ nav ul li a{
   text-decoration: none;
 }
 
+
+
+.movingSpan {
+  display: none;
+  transition: all 0.1s;
+  background-color: red;
+  z-index: -1;
+  opacity: 0;
+}
+.movingSpan.on {
+  display: block;
+  position: absolute;
+}
+.on-active {
+  opacity: 1;
+  padding: 0 10px;
+}
+
 footer {
   margin-top: 35px;
 }
