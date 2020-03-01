@@ -10,8 +10,8 @@ function getCurrentTime(){
   [month, date, hour, minutes] = [month, date, hour, minutes].map(makeTwoDigits);
   
   let format = `${month}/${date}/${year} ${hour}:${minutes}${mid} NYC`
-  console.log(format);
   timeHTML.innerText = format;
+  setTimeout(getCurrentTime, 10000);
 }
 
 getCurrentTime();
