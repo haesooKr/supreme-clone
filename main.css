@@ -71,5 +71,35 @@ nav ul li a{
 }
 
 footer {
-  margin-top: 35px;
+  min-width: 180px;
+  margin-top: 25px;
+}
+footer ul{
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+footer a{
+  opacity: 0.25;
+  display: block;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+footer li:first-child a{
+  background: url(//d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-99a55b4b9b11371b51d891cc52f43314.png) no-repeat center center;
+  background-size: 15px 55px;
+  background-position: 0px 0px;
+}
+
+footer li:nth-child(2) a{
+  background: url(//d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-99a55b4b9b11371b51d891cc52f43314.png) no-repeat center center;
+  background-size: 15px 55px;
+  background-position: 0px -20px;
+}
+
+footer li:last-child a{
+  background: url(//d17ol771963kd3.cloudfront.net/assets/social-sprites@2x-99a55b4b9b11371b51d891cc52f43314.png) no-repeat center center;
+  background-size: 15px 55px;
+  background-position: 0px -40px;
 }
